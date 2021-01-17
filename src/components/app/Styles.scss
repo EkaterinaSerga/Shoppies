@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &--search {
+    display: flex;
+    margin: 10%;
+    background-image: url('../../assets/chaplin.jpg');
+    color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    &-bar {
+      margin-top: 30%;
+      width: 70%;
+      border: 3px solid black;
+      padding: 0px;
+    }
+
+    &-button {
+      margin-top: 30%;
+      padding: 10px;
+      width: 30%;
+    }
+  }
+
+  &--result {
+    align-self: center;
+    height: 50%;
+  }
+}
